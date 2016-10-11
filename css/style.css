@@ -403,6 +403,7 @@ h2.resp-accordion {
 
 .grid img {
 	max-width: none;
+    max-height: 215px;
 	width: 100%;
 	width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);
@@ -429,21 +430,20 @@ h2.resp-accordion {
 .grid .figcaption {
 	text-align: left;
 }
-.grid h3 {
+.grid h4 {
     position: relative;
     overflow: hidden;
     padding: 0.5em 0;
 	-moz-opacity: 0;
     opacity: 0;
     text-transform: uppercase;
-    font-size: 2em;
     color: #fff;
 }
-.grid h3 span {
+.grid h4 span {
     font-weight: 800;
     margin-left: 5px;
 }
-.grid h3::after {
+.grid h4::after {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -460,14 +460,14 @@ h2.resp-accordion {
 	-o-transform: translate3d(-100%,0,0);
 	-ms-transform: translate3d(-100%,0,0);
 }
-.grid:hover h3::after {
+.grid:hover h4::after {
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 	-o-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
 }
-.grid:hover h3 {
+.grid:hover h4 {
 	-moz-opacity:1;
 	opacity:1;
 }
